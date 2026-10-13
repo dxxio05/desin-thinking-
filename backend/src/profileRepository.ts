@@ -1,5 +1,5 @@
-import type { Profile } from "./types";
-import profileData from "./data/profile.json";
+import type { Profile } from "./types.js";
+import profileData from "./data/profile.json" with { type: "json" };
 
 /**
  * 프로필 데이터 접근 계층.
